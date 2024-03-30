@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ground-Up | Bootstrap</title>
+
+    <link rel="stylesheet" href="./default.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon">
+
+    <!-- Bootstrap linking  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- header/navbar  -->
+    <header>
+        <div class="container" style="height: 100%;">
+            <nav class="navbar navbar-expand-lg bg-body-light p-lg-0" style="height: 100%;">
+                <div class="container-fluid d-flex align-items-center p-lg-0">
+                    <a class="navbar-brand" href="#" style="max-height: 119px;">
+                        <img src="./images/Nav_logo.svg" alt="Bootstrap" width="100%">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Trainings
+                                </a>
+                                <ul class="dropdown-menu p-0">
+                                    <li><a class="dropdown-item" href="#"><span style="color: #05A93D;">Module 1</span>-
+                                            Bridging the Triad of <br>
+                                            Therapist,
+                                            Client and Medicine</a></li>
+                                    <hr class="dropdown-divider">
+
+                                    <li><a class="dropdown-item" href="#"><span style="color: #05A93D;">Module 1</span>-
+                                            Bridging the Triad of <br>
+                                            Therapist,
+                                            Client and Medicine</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#"><span style="color: #05A93D;">Module 1</span>-
+                                            Bridging the Triad of <br>
+                                            Therapist,
+                                            Client and Medicine</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#" style="color: #05A93D;">Contact
+                                    Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- section with bg  -->
+    <!-- contact -->
+    <section id="about-title">
+        <div class="about-container d-flex  justify-content-center align-items-center text-center ">
+            <div class="row">
+                <div class="about-title">
+                    <div>
+                        <h1>Contact Us</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section contactus  -->
+    <section class="contactus" id="contactus">
+        <div class="container">
+            <div class="items row">
+                <div class="left col-lg-4">
+                    <div>
+                        <h3>Contact Information</h3>
+                    </div>
+                    <div class="para">
+                        <p>Contact us or simply fill in the form and we will get back to you as soon as possible.</p>
+                    </div>
+                    <div>
+                        <div class="cont-details">
+                            <div class="icon"><img src="/images/conticon1.svg" alt="">
+                            </div>
+                            <div>
+                                <a href="tel:+(123) 456-7890" style="text-decoration: none; color: #777777;">+(123)
+                                    456-7890</a>
+                            </div>
+                        </div>
+                        <div class="cont-details">
+                            <div class="icon"><img src="/images/conticon2.svg" alt=""></div>
+                            <div>
+                                <a href="mailto:demo@gmail.com"
+                                    style="text-decoration: none; color: #777777;">demo@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="cont-details">
+                            <div class="icon"><img src="/images/conticon3.svg" alt=""></div>
+                            <div>
+                                <a href="https://maps.app.goo.gl/GPq5VEVLUxhf85fz7"
+                                    style="text-decoration: none; color: #777777;" target="_blank">
+                                    Lorem Ipsum is simply dummy text of the <br> printing and typesetting
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="right col-lg-7">
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="mb-3">
+                                    <label for="fname" class="form-label">First Name*</label>
+                                    <input type="email" class="form-control" id="fname" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="mb-3">
+                                    <label for="sname" class="form-label">Surname*</label>
+                                    <input type="text" class="form-control" id="sname">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12 mt-lg-4">
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">E-mail*</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 mt-lg-4">
+                                <div class="mb-3 ">
+                                    <label for="phone" class="form-label">Phone*</label>
+                                    <input type="text" class="form-control" id="phone" required>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="mb-3 form-floating mt-lg-4">
+                            <label for="msg" class="form-label ">Message*</label>
+                            <textarea class="form-control mt-3" placeholder="Leave a comment here" id="msg"
+                                style="height: 138px"></textarea>
+                        </div>
+                        <button type="submit" class="btn text-light" style="width: 138px; height: 48px;">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Google map-->
+    <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 434px">
+        <!-- <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+            style="border:0" allowfullscreen></iframe> -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d927758.0369178087!2d46.16300739019574!3d24.72499776570615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2sin!4v1711079423546!5m2!1sen!2sin"
+            style="border:0;" allowfullscreen=""></iframe>
+    </div>
+
+
+    <!-- <a href="https://maps.app.goo.gl/pTnKHw1YLwqTNCRq6">
+        <section
+            style="background-image: url(./images/test.svg); height: 400px; background-position: center; background-blend-mode: overlay;">
+        </section>
+    </a> -->
+
+
+
+    <!--Google Maps-->
+
+
+    <!-- footer  -->
+
+    <footer class="text-center">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+
+            <div class="row">
+                <div class="footer-logo">
+                    <img src="./images/footer_logo.svg" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="footer-items">
+                    <ul class="d-flex  justify-content-center gap-5 p-1">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Trainings</a></li>
+                        <li><a href="#contactus">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Section: Social media -->
+                <div class="social mb-4">
+                    <!-- Facebook -->
+                    <a data-mdb-ripple-init class="btn text-white btn-floating m-1"
+                        style="background-color: #F67C01; border-radius: 50%;" href="#!" role="button"><img
+                            src="./images/Vector.svg" alt=""></a>
+
+                    <!-- Twitter -->
+                    <a data-mdb-ripple-init class="btn text-white btn-floating m-1"
+                        style="background-color: #F67C01; border-radius: 50%;" href="#!" role="button"><img
+                            src="./images/Vector (1).svg" alt="" width="100%"></a>
+
+
+
+                    <!-- Instagram -->
+                    <a data-mdb-ripple-init class="btn text-white m-1"
+                        style="background-color: #F67C01; border-radius: 50%;" href="#!" role="button"><img
+                            src="./images/Vector (2).svg" alt="" width="100%"></a>
+
+                    <!-- Linkedin -->
+                    <a data-mdb-ripple-init class="btn text-white  m-1"
+                        style="background-color: #F67C01; border-radius: 50%;" href="#!" role="button"><img
+                            src="./images/ps_youtube.svg" alt="" width="100%"></a>
+                </div>
+                <!-- Section: Social media -->
+            </div>
+
+            <hr style="max-width: 1200px;">
+
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="font-size: 14px; letter-spacing: 2px;">
+            <p>©2023 Ground up Psychedelic Institute. All Rights Reserved.</p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
