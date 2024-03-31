@@ -64,7 +64,7 @@ header .dropdown-menu {
 }
 
 #about-title {
-    background-image: url(/images/about-bg.png);
+    background-image: url(./images/about-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
